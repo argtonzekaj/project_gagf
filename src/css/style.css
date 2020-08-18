@@ -374,6 +374,7 @@ select{
   font-weight: 800;
   background-color: white;
   border-radius: 3px;
+  transition: all 0.3s ease-in-out;
 }
 .register_button::after{
   content: '';
@@ -384,6 +385,11 @@ select{
     position: absolute;
     left: 277px;
     top: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.register_button:hover{
+  color: white;
+  background-color:#E73D43;
 }
 .video_section{
   width: 100%;
