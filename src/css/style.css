@@ -500,7 +500,7 @@ select{
 .media_sponsors img{
   margin-bottom: 115px;
 }
-.contact {
+.contact_section {
   background: #F2F2F2;
 }
 .contact_wrapper {
@@ -562,4 +562,38 @@ select{
   font-weight: 700;
   height: 67px;
   margin-top: 37px;
+}
+.main_footer{
+  width: 100%;
+}
+.footerWrap{
+  margin: 0 auto;
+  background-color: #292929;
+}
+.footer_social-contents{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 87px;
+}
+.footer_social-contents h5{
+margin-top: 33px;
+margin-left: 27px;
+color:#7B7B7B;
+font-size: 15px;
+font-weight: 600;
+}
+.footer_social-contents span{
+  margin-top: 34px;
+  margin-left: 5px;
+  color:#7B7B7B;
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer_social-contents h6{
+  margin-top: 34px;
+  margin-left: 618px;
+  color:#7B7B7B;
+  font-size: 15px;
+  font-weight: 600;
 }
