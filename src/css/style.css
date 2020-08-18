@@ -12,15 +12,16 @@ select{
   max-width: 1920px;
   margin: 0 auto;
 }
-.main_header{
+/* .main_header{
   position: fixed;
   top: 0;
   left: 0;
   z-index: 99;
   background: #fff;
-}
+} */
 .header_top {
   display: flex;
+  justify-content: center;
   width: 100%;
   height: 58px;
   background-color: #E0353B;
@@ -56,7 +57,6 @@ select{
   background-color: #E0353B;
   border: 1px solid #fff;
   border-radius: 3px;
-  display: none;
 }
 .header_select-menu li:hover {
   display: block;
@@ -75,6 +75,16 @@ select{
 }
 .header_select-menu ul li a:hover{
   background-color: rgba(210, 87 , 91, 0.8);
+}
+.header_select-language ul {
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.header_select-language:hover ul {
+  opacity: 1;
+  visibility: visible;
+  overflow: visible;
 }
 .header_search{
   margin-top: 20px;
@@ -107,6 +117,7 @@ select{
   display: flex;
   max-width: 1920px;
   width: 100%;
+  margin: 0 auto;
   margin-bottom: 56px;
 }
 .header_logo{
@@ -184,4 +195,48 @@ select{
   background-image: url(../images/Envelope-01.svg);
   top: -31px;
   right: -41px;
+}
+.banner_section{
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  height: 608px;
+}
+.banner_wrapper{
+  position: relative;
+}
+.photo {
+  width: 100%;
+  height: 608px;
+}
+.title__wrapper h1{
+  position: absolute;
+  top: 437px;
+  left: 285px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 67px;
+  color: white;
+}
+.title__wrapper h3{
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 46px;
+  color: white;
+  position: absolute;
+  left:285px;
+  top: 500px;
+}
+.photo::before{
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+30,808080+30,555555+31,404040+31,666666+31,555555+31,494949+31,606060+32,555555+32,464646+32,555555+33,494949+33,555555+33,4b4b4b+34,555555+34,494949+34,515151+35,4a4a4a+35,525252+35,494949+36,4f4f4f+36,484848+37,4d4d4d+37,494949+37,4e4e4e+38,484848+38,4d4d4d+39,464646+39,4a4a4a+40,454545+40,494949+40,454545+41,484848+41,434343+42,464646+42,424242+43,454545+43,414141+44,434343+45,404040+45,424242+46,3e3e3e+47,414141+47,3d3d3d+48,3f3f3f+48,3c3c3c+49,3e3e3e+49,3a3a3a+50,3c3c3c+51,373737+53,393939+53,323232+57,343434+57,2e2e2e+63,2f2f2f+65,292929+72,262626+79,232323+80,181818+100&0+0,0+30,0.5+57,0.94+100 */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(128,128,128,0) 30%, rgba(73,73,73,0.02) 31%, rgba(70,70,70,0.04) 32%, rgba(85,85,85,0.06) 33%, rgba(73,73,73,0.08) 34%, rgba(82,82,82,0.1) 35%, rgba(79,79,79,0.12) 36%, rgba(73,73,73,0.14) 37%, rgba(72,72,72,0.16) 38%, rgba(70,70,70,0.18) 39%, rgba(73,73,73,0.2) 40%, rgba(72,72,72,0.22) 41%, rgba(70,70,70,0.24) 42%, rgba(69,69,69,0.26) 43%, rgba(65,65,65,0.28) 44%, rgba(64,64,64,0.3) 45%, rgba(66,66,66,0.32) 46%, rgba(65,65,65,0.34) 47%, rgba(63,63,63,0.36) 48%, rgba(62,62,62,0.38) 49%, rgba(58,58,58,0.4) 50%, rgba(60,60,60,0.41) 51%, rgba(57,57,57,0.44) 53%, rgba(52,52,52,0.5) 57%, rgba(46,46,46,0.56) 63%, rgba(47,47,47,0.58) 65%, rgba(41,41,41,0.65) 72%, rgba(38,38,38,0.72) 79%, rgba(35,35,35,0.73) 80%, rgba(24,24,24,0.94) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(128,128,128,0) 30%,rgba(73,73,73,0.02) 31%,rgba(70,70,70,0.04) 32%,rgba(85,85,85,0.06) 33%,rgba(73,73,73,0.08) 34%,rgba(82,82,82,0.1) 35%,rgba(79,79,79,0.12) 36%,rgba(73,73,73,0.14) 37%,rgba(72,72,72,0.16) 38%,rgba(70,70,70,0.18) 39%,rgba(73,73,73,0.2) 40%,rgba(72,72,72,0.22) 41%,rgba(70,70,70,0.24) 42%,rgba(69,69,69,0.26) 43%,rgba(65,65,65,0.28) 44%,rgba(64,64,64,0.3) 45%,rgba(66,66,66,0.32) 46%,rgba(65,65,65,0.34) 47%,rgba(63,63,63,0.36) 48%,rgba(62,62,62,0.38) 49%,rgba(58,58,58,0.4) 50%,rgba(60,60,60,0.41) 51%,rgba(57,57,57,0.44) 53%,rgba(52,52,52,0.5) 57%,rgba(46,46,46,0.56) 63%,rgba(47,47,47,0.58) 65%,rgba(41,41,41,0.65) 72%,rgba(38,38,38,0.72) 79%,rgba(35,35,35,0.73) 80%,rgba(24,24,24,0.94) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(128,128,128,0) 30%,rgba(73,73,73,0.02) 31%,rgba(70,70,70,0.04) 32%,rgba(85,85,85,0.06) 33%,rgba(73,73,73,0.08) 34%,rgba(82,82,82,0.1) 35%,rgba(79,79,79,0.12) 36%,rgba(73,73,73,0.14) 37%,rgba(72,72,72,0.16) 38%,rgba(70,70,70,0.18) 39%,rgba(73,73,73,0.2) 40%,rgba(72,72,72,0.22) 41%,rgba(70,70,70,0.24) 42%,rgba(69,69,69,0.26) 43%,rgba(65,65,65,0.28) 44%,rgba(64,64,64,0.3) 45%,rgba(66,66,66,0.32) 46%,rgba(65,65,65,0.34) 47%,rgba(63,63,63,0.36) 48%,rgba(62,62,62,0.38) 49%,rgba(58,58,58,0.4) 50%,rgba(60,60,60,0.41) 51%,rgba(57,57,57,0.44) 53%,rgba(52,52,52,0.5) 57%,rgba(46,46,46,0.56) 63%,rgba(47,47,47,0.58) 65%,rgba(41,41,41,0.65) 72%,rgba(38,38,38,0.72) 79%,rgba(35,35,35,0.73) 80%,rgba(24,24,24,0.94) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#f0181818',GradientType=0 ); /* IE6-9 */
 }
