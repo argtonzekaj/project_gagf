@@ -696,3 +696,35 @@ font-weight: 600;
   font-size: 15px;
   font-weight: 600;
 }
+.blogslider_wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.blogslider{
+  max-width: 723px;
+  height: 192px;
+  background-color: #E0353B;
+  position: relative;
+}
+.blogslider_content h5{
+  position: absolute;
+  top: 54px;
+  left: 283px;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 67px;
+  color: white;
+}
+.blogslider2{
+  position: relative;
+}
+.blogslider2_content span{
+  position: absolute;
+  color: white;
+  top: 60px;
+  left: 235px;
+  font-size: 33px;
+  line-height: 44px;
+  font-weight: 400;
+
+}
