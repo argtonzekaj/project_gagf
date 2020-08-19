@@ -9,6 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="index.html" />
     <link rel="stylesheet" href="lajmet.html" />
     <link rel="stylesheet" href="src/css/reset.css" />
@@ -93,37 +95,117 @@
                     </div>
                 </div>
             </section>
-            <section class="event_section">
+            <section class="article_section">
                 <div class="container">
-                    <div class="event_wrapper">
-                        <div class="event">
-                            <div class="event_thumb">
-                                <img src="src/images/firstblogphoto.png" alt="photo">
-                            </div>
-                        </div>
-                        <div class="contact_wrapper">
-                            <h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
+                    <div class="content_wrapper">
+                        <article class="article">
+                            <img src="./src/images/firstblogphoto.png" class="article_image" alt="" />
                             <p>
-                                Let us notify you for every important news,<br> and don’t miss
-                                uninformed for next event.
+                                <span>C</span>ontrary to popular belief, Lorem Ipsum is not
+                                simply random text. It has roots in a piece of classical Latin
+                                literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in
+                                Virginia, looked up one of the more obscure Latin words,
+                                consectetur, from a Lorem Ipsum passage, and going through the
+                                cites of the word in classical literature, discovered the
+                                undoubtable source. Lorem Ipsum comes from sections 1.10.32
+                                and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes
+                                of Good and Evil) by Cicero, written in 45 BC. This book is a
+                                treatise on the theory of ethics, very popular during the
+                                Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor
+                                sit amet..”, comes from a line in section 1.10.32.
                             </p>
-                            <form action="#">
-                                <div class="form__wrapper">
-                                    <div class="form_input_wrapper">
+                            <p>
+                                The standard chunk of Lorem Ipsum used since the 1500s is
+                                reproduced below for those interested. Sections 1.10.32 and
+                                1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are
+                                also reproduced in their exact original form, accompanied by
+                                English versions from the 1914 translation by H. Rackham.
+                            </p>
+                            <h3>FIRST EVENT</h3>
+                            <p>
+                                Contrary to popular belief, Lorem Ipsum is not simply random
+                                text. It has roots in a piece of classical Latin literature
+                                from 45 BC, making it over 2000 years old. Richard McClintock,
+                                a Latin professor at Hampden-Sydney College in Virginia,
+                                looked up one of the more obscure Latin words,
+                            </p>
+                            <h3>SECOND EVENT</h3>
+                            <p>
+                                Contrary to popular belief, Lorem Ipsum is not simply random
+                                text. It has roots in a piece of classical Latin literature
+                                from 45 BC, making it over 2000 years old. Richard McClintock,
+                                a Latin professor at Hampden-Sydney College in Virginia,
+                                looked up one of the more obscure Latin words, his book is a
+                                treatise on the theory of ethics, very popular during the
+                                Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor
+                                sit amet..”, comes from a line in section 1.10.32.
+                            </p>
+                            <h4>“Only the best chefs, will get to the final table”</h4>
+                            <p>
+                                Contrary to popular belief, Lorem Ipsum is not simply random
+                                text. It has roots in a piece of classical Latin literature
+                                from 45 BC, making it over 2000 years old. Richard McClintock,
+                                a Latin professor at Hampden-Sydney College in Virginia,
+                                looked up one of the more obscure Latin words, his book is a
+                                treatise on the theory of ethics, very popular during the
+                                Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor
+                                sit amet..”, comes from a line in section 1.10.32.
+                            </p>
+                            <div class="article__icons">
+                                <img src="./src/images/social-medias-footer.svg" alt="" />
+                                <h5>SHPËRNDAJE NË RRJETE SOCIALE</h5>
+                            </div>
+                        </article>
+                        <aside>
+                            <div class="aside_contact">
+                                <h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
+                                <p>
+                                    Let us notify you for every important news, and don’t miss
+                                    uninformed for next event.
+                                </p>
+                                <form action="#">
+                                    <div class="aside__contact-wrapper">
                                         <input type="email" placeholder="your email address"
                                             class="form__input--email" />
-                                        <img src="src/images/envelope.svg" alt="envelope">
+                                        <label for="news">
+                                            <input type="checkbox" name="news" value="news" id="news" />
+                                            Send me email with news and notifications</label>
+                                        <label for="checkbox1">
+                                            <input type="checkbox" id="checkbox1" value="checkbox1" name="checkbox1" />
+                                            Notify me only on important dates</label>
+                                        <input type="submit" value="Submit" class="contact_wrapper--submit" />
                                     </div>
-                                    <label for="news">
-                                        <input type="checkbox" name="news" value="news" id="news" />
-                                        Send me email with news and notifications</label>
-                                    <label for="checkbox1">
-                                        <input type="checkbox" id="checkbox1" value="checkbox1" name="checkbox1" />
-                                        Notify me only on important dates</label>
-                                    <input type="submit" value="Submit" class="contact_wrapper--submit" />
+                                </form>
+                            </div>
+                            <h3 class="aside__text--news">LATEST NEWS</h3>
+                            <div class="boxes_wrapper">
+                                <div class="aside__boxes">
+                                    <a href="#"><img src="./src/images/Blog-1.png" alt="photo" />
+                                        <div class="aside__boxes--content">
+                                            <h3>The biggest gastronomy festival in the region.</h3>
+                                            <span>19 January 2019</span>
+                                        </div>
+                                    </a>
                                 </div>
-                            </form>
-                        </div>
+                                <div class="aside__boxes">
+                                    <a href="#"><img src="./src/images/Blog-2.png" alt="photo" />
+                                        <div class="aside__boxes--content">
+                                            <h3>The biggest gastronomy festival in the region.</h3>
+                                            <span>19 January 2019</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="aside__boxes">
+                                    <a href="#"><img src="./src/images/Blog-3.png" alt="photo" />
+                                        <div class="aside__boxes--content">
+                                            <h3>The biggest gastronomy festival in the region.</h3>
+                                            <span>19 January 2019</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </aside>
                     </div>
                 </div>
             </section>
@@ -132,7 +214,16 @@
     <!-- END MAIN -->
     <!-- BEGIN FOOTER -->
     <footer id="footer" class="main_footer">
-        <div class="footerWrap"></div>
+        <div class="footerWrap">
+            <div class="container">
+                <div class="footer_social-contents">
+                    <img src="src/images/social-medias-footer.svg" alt="socialmedia">
+                    <h5>info@gastronomy.com</h5>
+                    <span>+386 49 818 088</span>
+                    <h6>All Rights Reserved. 2019.</h6>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- END FOOTER -->
     <!-- SCRIPTS -->
