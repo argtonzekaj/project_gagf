@@ -259,7 +259,6 @@ select{
 }
 .blog_section{
   background-color: #F2F2F2;
-  height:747px;
 }
 .container_blog{
   width: 100%;
@@ -272,6 +271,7 @@ select{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 71px;
 }
 .blog {
   margin-top: 71px;
@@ -327,6 +327,7 @@ select{
   line-height: 26px;
   color: #E63D42;
   font-weight: 600;
+  max-width: 320.31px
 }
 .blog_content2 span{
   font-size: 16px;
@@ -348,6 +349,7 @@ select{
   line-height: 26px;
   color: #E63D42;
   font-weight: 600;
+  max-width: 303.31px;
 }
 .blog_content3 span{
   font-size: 16px;

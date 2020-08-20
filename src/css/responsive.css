@@ -1,0 +1,64 @@
+/* This media query is used only for mobile devices */
+@media only screen and (max-width: 767px) {
+    .column-mob-1 {
+      width: 8.33333%;
+    }
+    .column-mob-2 {
+      width: 16.66667%;
+    }
+    .column-mob-3 {
+      width: 25%;
+    }
+    .column-mob-4 {
+      width: 33.33333%;
+    }
+    .column-mob-5 {
+      width: 41.66667%;
+    }
+    .column-mob-6 {
+      width: 50%;
+    }
+    .column-mob-7 {
+      width: 58.33333%;
+    }
+    .column-mob-8 {
+      width: 66.66667%;
+    }
+    .column-mob-9 {
+      width: 75%;
+    }
+    .column-mob-10 {
+      width: 83.33333%;
+    }
+    .column-mob-11 {
+      width: 91.66667%;
+    }
+    .column-mob-12 {
+      width: 100%;
+    }
+    .photo::before{
+    display: none;
+    }
+    .title__wrapper{
+        display: none;
+    }
+    .blog_section{
+        margin-top: -490px;
+    }
+    .blog_wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog{
+        width: 335px;
+    }
+    .register_button{
+      
+    }
+  }
+  /* This media query is used only for small tablet devices */
+  @media only screen and (min-width: 768px) and (max-width: 990px) {
+  }
+  /* This media query is used only for big tablet devices */
+  @media only screen and (min-width: 991px) and (max-width: 1199px) {
+  }
