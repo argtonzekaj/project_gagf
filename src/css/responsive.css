@@ -50,12 +50,119 @@
         flex-direction: column;
     }
     .blog{
-        width: 335px;
+        width: 100%;
     }
     .register_button{
-      
+      margin-left: 20px;
+      font-size: 22px;
     }
+    .sponsors_content p {
+      font-size: 13px;
+    }
+    .event_logo{
+      margin-left: 10px;
+    }
+    .contact_wrapper h1 {
+      font-size: 21px;
+    }
+    .form__input--email {
+      width: 352px;
+    }
+    .form_input_wrapper img {
+      position: absolute;
+      left: 297px;
+    }
+    .footer_social-contents {
+      margin-left: 349px;
+    }
+    .footer_social-contents span{
+      display: none;
+    }
+    .header_logo {
+      width: 250px;
+      margin-top: 53px;
+    }
+    .blogslider_content h5 {
+      top: 55px;
+      left: 125px;
+      font-size: 34px;
+    }
+    .blogslider2 {
+      display: none;
+    }
+    .first_blog_slider img{
+      display: none;
+    }
+    .blog1{
+      width: 100%;
+      margin-bottom: 73.2px;
+      margin-top: -46px;
+    }
+    .secondblog_wrapper {
+      max-width: 767px;
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 73px;
+      margin-bottom: -26px;
+      display: flex;
+      flex-direction: column;
   }
+    .secondblog3_wrapper {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 767px;
+    width: 100%;
+    margin: 0 auto;
+  }
+    .blog2 {
+    width: 100%;
+    margin-top: 0;
+  }
+  .first_blog_slider-content {
+    background-color: white;
+    width: 673px;
+    padding-bottom: 50px;
+  }
+  .first_blog_slider-content h2 {
+    margin-top: 75px;
+    margin-left: 61px;
+    padding-right: 30px;
+    font-size: 30px;
+    line-height: 1.000em;
+  }
+  .first_blog_slider-content p {
+    margin-top: 30px;
+    margin-left: 61px;
+    padding-right: 30px;
+    max-width: 524.9px;
+    color: black;
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .content_wrapper {
+    display: flex;
+    max-width: 767px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: -80px;
+    margin-left: 30px;
+  }
+  .article_image{
+    display: none;
+  }
+  .article p {
+    font-size: 17px;
+    width: 322.1px;
+  }
+  .intro_wrapper {
+    margin-left: 30px;
+  }
+  .intro_content h2 {
+    font-size: 13px;
+  }
+}
+
   /* This media query is used only for small tablet devices */
   @media only screen and (min-width: 768px) and (max-width: 990px) {
   }
