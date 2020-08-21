@@ -240,4 +240,94 @@
   }
   /* This media query is used only for big tablet devices */
   @media only screen and (min-width: 991px) and (max-width: 1199px) {
+    .photo:before{
+      display: none;
+    }
+    .blog_wrapper {
+      margin-top: -290px;
+    }
+    .header_logo {
+      width: 250px;
+    }
+    .header_content{
+      margin-top: 80px;
+      margin-left: -7px;
+    }
+    .header_content li {
+      margin-left: 55px;
+      font-size: 13px;
+    }
+    .envelope_registration{
+      display: none;
+    }
+    .header_social-medias{
+      margin-left: 400px;
+    }
+    .header_social-medias{
+      margin-left: 0;
+    }
+    .header_select-menu{
+      margin-left: 300px;
+    }
+    .header_select-language{
+      margin-left: 0;
+
+    }
+    .header_select-menu ul{
+      margin-left: 0;
+    }
+    .header_search {
+      margin-top: 22px;
+      margin-left: 35.5px;
+    }
+    .video_content h3{
+      left: 100px;
+      top: 55px;
+    }
+    .title__wrapper h1 {
+      top: 200px;
+      left: 50px;
+      font-size: 36px;
+    }
+    .title__wrapper h3 {
+      font-size: 25px;
+      left: 50px;
+      top: 245px;
+    }
+    .video_button{
+      top: 180px;
+      left: 350px;
+    }
+    .footer_social-contents{
+      margin-left: 100px;
+    }
+    .footer_social-contents span{
+      display: none;
+    }
+    .blogslider2_thumb{
+      display: none;
+    }
+    .blogslider {
+      width: 1199px;
+      max-width: 1199px;
+    }
+    .blogslider_content h5{
+      left: 440px;
+    }
+    .first_blog_slider-content h2{
+      font-size: 34px;
+      line-height: 1.000em;
+    }
+    .intro_wrapper {
+      margin-left: 30px;
+    }
+    .content_wrapper{
+      margin-left: 30px;
+    }
+    .article p {
+      width: 400px;
+    }
+    .aside_contact h1 {
+      font-size: 26px;
+    }
   }
